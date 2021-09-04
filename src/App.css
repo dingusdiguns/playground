@@ -23,6 +23,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.home{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+}
+
+.window-icon{
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  border: 4px solid rgb(218, 218, 218);
+  transition: .2s;
+}
+
+.window-icon__menu{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.window-icon:hover{
+  background-color: rgb(238, 238, 238);;
+}
 
 .App-link {
   color: #61dafb;
